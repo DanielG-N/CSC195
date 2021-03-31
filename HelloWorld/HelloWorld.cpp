@@ -2,10 +2,23 @@
 //
 
 #include <iostream>
+using namespace std;
+
+namespace maple
+{
+    void print() {}
+}
 
 int main()
 {
+    maple::print();
+
     std::cout << "Hi World!\n";
+    cout << "Yo\n";
+
+    int age;
+    cin >> age;
+    cout << "Age = " << age << " is old." << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
